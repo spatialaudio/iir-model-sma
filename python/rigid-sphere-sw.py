@@ -76,7 +76,7 @@ for axi in ax:
     axi.set_xlim(fmin, fmax)
     axi.set_xlabel('Frequency in Hz')
     axi.set_xscale('log')
-ax[0].set_ylim(-165, -65)
+# ax[0].set_ylim(-165, -65)
 ax[0].set_ylabel('Magnitude in dB')
 ax[1].set_ylabel('Group delay in ms')
 ax[1].set_ylim((r_s-R)/c*1000, (r_s+R)/c*1000)
